@@ -27,6 +27,7 @@ public class Student {
             return 50;
         }
         else {
+            System.out.println("It is a odd number");
             return 100;
         }
     }
