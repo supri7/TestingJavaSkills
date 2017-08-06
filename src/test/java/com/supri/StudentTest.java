@@ -1,4 +1,4 @@
-package com.supri.java;
+package com.supri;
 
 
 import org.junit.Assert;
