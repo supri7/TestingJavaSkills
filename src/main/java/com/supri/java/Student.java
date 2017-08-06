@@ -1,0 +1,32 @@
+package com.supri.java;
+
+import java.util.Date;
+
+public class Student {
+
+    private String name;
+    private long rollNumber;
+
+    public Student(String name, long rollNumber) {
+        this.name = name;
+        this.rollNumber = rollNumber;
+    }
+
+
+    public String getName() {
+        return name;
+    }
+
+    public long getRollNumber() {
+        return rollNumber;
+    }
+
+    public int getTotalMarks() {
+        if(rollNumber%2==0) {
+            return 50;
+        }
+        else {
+            return 100;
+        }
+    }
+}
