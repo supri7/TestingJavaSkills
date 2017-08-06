@@ -23,6 +23,7 @@ public class Student {
 
     public int getTotalMarks() {
         if(rollNumber%2==0) {
+            System.out.println("It is a even number");
             return 50;
         }
         else {
